@@ -12,8 +12,7 @@
                 "everybody@altiora.internal",
                 "mobile_apps_team",
                 "france_region_all",
-                "engineering_department",
-                "code_reviewers_eu"
+                "engineering_department"
             ]
         },
         {
@@ -27,8 +26,34 @@
             "aad_groups": [
                 "everybody@altiora.internal",
                 "hr_department_all",
-                "france_region_all",
-                "hr_confidential_france"
+                "france_region_all"
+            ]
+        },
+        {
+            "id": "U-1003",
+            "username": "l.us",
+            "displayName": "Lucas United-States",
+            "department": "Engineering",
+            "role": "Lead Cloud Architect",
+            "email": "lucas.us@altiora.com",
+            "region": "USA",
+            "aad_groups": [
+                "everybody@altiora.internal",
+                "engineering_department",
+                "usa_region_all",
+                "cfius_cleared_tech"
+            ]
+        },
+        {
+            "id": "U-9999",
+            "username": "guest.test",
+            "displayName": "Visiteur Temporaire",
+            "department": "Unknown",
+            "role": "External Guest",
+            "email": "guest@external.com",
+            "region": "World",
+            "aad_groups": [
+                "everybody@altiora.internal"
             ]
         }
     ]
