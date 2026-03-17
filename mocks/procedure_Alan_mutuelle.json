@@ -1,0 +1,47 @@
+{
+    "document_id": "HR-BENEFITS-2026-004",
+    "title": "Guide Utilisateur : Mutuelle Alan & Remboursements",
+    "metadata": {
+        "service_provider": "Alan",
+        "contract_type": "Pack Green Altiora",
+        "last_update": "2026-03-01",
+        "contact_hr": "benefits@altiora.fr"
+    },
+    "content": {
+        "onboarding": "Dès votre arrivée, vous recevez un email d'invitation d'Alan sur votre adresse professionnelle. L'activation se fait en moins de 2 minutes via l'application mobile ou le portail web.",
+        "activation_steps": [
+            "Télécharger l'application Alan sur iOS ou Android.",
+            "Cliquer sur le lien d'invitation reçu par email.",
+            "Prendre en photo votre carte Vitale et votre attestation de droits.",
+            "Relier votre compte bancaire (IBAN) pour les remboursements automatiques."
+        ],
+        "reimbursement_process": "Grâce à la télétransmission (Noémie), la plupart des soins sont remboursés sans action de votre part sous 48h après le passage chez le médecin.",
+        "manual_claims": {
+            "instruction": "Pour les factures d'ostéopathie, psychologie ou optique (hors télétransmission), suivez cette procédure :",
+            "steps": [
+                "Prendre en photo la facture acquittée via l'application.",
+                "S'assurer que le nom du praticien et le numéro ADELI sont visibles.",
+                "Valider l'envoi."
+            ]
+        },
+        "guarantees_summary": {
+            "general_medicine": "Prise en charge à 100% du ticket modérateur.",
+            "dental": "Forfait de 500€/an pour les implants et l'orthodontie.",
+            "optics": "Forfait de 300€ tous les 2 ans (monture + verres).",
+            "alternative_medicine": "60€ par séance, limite de 4 séances par an (Ostéo, Psy, Chiropraxie)."
+        }
+    },
+    "__mock_acl": {
+        "allowed_aad_groups": [
+            "everybody@altiora.internal",
+            "france_region_all"
+        ],
+        "visibility": "public",
+        "classification": "Internal",
+        "ai_ingestion": {
+            "is_eligible": true,
+            "reason": "Procédure standard pour tous les salariés français. Très utile pour le support interne.",
+            "security_owner": "HR Operations Manager"
+        }
+    }
+}
